@@ -1,0 +1,30 @@
+﻿\usetikzlibrary {arrows.meta,bending,positioning}
+\usetikzlibrary {shapes.multipart}
+\begin{tikzpicture}[scale=1]
+\node (n1) at (-3.5,4) {$x_{1,i}$};
+\draw [very thick,blue,->] (-3.0,4) -- (-0.2,0.3) ;
+
+\node (n2) at (-3.5,3) {$x_{2,i}$};
+\draw [very thick,blue,->] (-3.0,3) -- (-0.25,0.27);
+
+\node (n3) at (-3.5,2) {$x_{3,i}$};
+\draw [very thick,blue,->] (-3.0,2) -- (-0.3,0.2);
+
+\node (n4) at (-3.5,1) {$x_{4,i}$};
+\draw [very thick,blue,->] (-3.0,1) -- (-0.33,0.12);
+
+\node (n5) at (-3.5,-1) {$x_{n-3,i}$};
+\draw [very thick,blue,->] (-3.0,-1) -- (-0.34,-0.11);
+
+\node (n6) at (-3.5,-2) {$x_{n-2,i}$};
+\draw [very thick,blue,->] (-3.0,-2) -- (-0.32,-0.17);
+
+\node (n7) at (-3.5,-3) {$x_{n-1,i}$};
+\draw [very thick,blue,->] (-3.0,-3) -- (-0.23,-0.22);
+
+\node (n8) at (-3.5,-4) {$x_{n,i}$};
+\draw [very thick,blue,->] (-3.0,-4) -- (-0.23,-0.27);
+\draw [very thick,red, ->]  (0.0,0) --  (3,0);
+\node (n9) at (3.5,0)  {$a_i$};
+\filldraw[fill=teal] (0,0) circle(10pt); 
+\end{tikzpicture}
