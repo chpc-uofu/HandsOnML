@@ -1,4 +1,4 @@
-# Checking the update function
+# Test Ex. 5: Update of the parameters
 import numpy as np 
 import numpy.random as rnd
 
@@ -7,9 +7,9 @@ def check_update():
     UPLIMIT = 1.E-10
     # Gen. Random matrices
     rng = rnd.default_rng(seed=42)
-    N = 100
-    W = rng.random((N,1))
-    dW = 0.25*rng.random((N,1))
+    n = 100
+    W = rng.random((n,1))
+    dW = 0.25*rng.random((n,1))
     b, db = 0.3, 0.05
     lr = 0.05
 

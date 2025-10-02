@@ -1,4 +1,5 @@
-# Solution for ex1.2
+# Solution for ex2: Sigmoid activation function
+
 def sigmoid(Z: np.ndarray) -> np.ndarray:
     """
     Compute the sigmoid function.

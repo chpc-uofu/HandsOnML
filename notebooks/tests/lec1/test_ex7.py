@@ -1,4 +1,4 @@
-# Checking the predict_labels function
+# Test Ex. 7: Check the prediction of labels
 import numpy as np 
 import numpy.random as rnd
 
@@ -6,12 +6,12 @@ def check_predict_labels():
 
     # Gen. Random matrices
     rng = rnd.default_rng(seed=42)
-    N = 100
-    X = rng.random((5,N))
+    m = 100
+    X = rng.random((m,5))
     W = rng.random((5,1))
     b = 0.3
 
-    Z = np.dot(W.T,X) + b
+    Z = np.dot(X,W) + b
     A = 1.0/(1.0+np.exp(-Z))
     Y_corr = np.where(A>=0.5, 1,0)
 

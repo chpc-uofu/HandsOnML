@@ -1,4 +1,4 @@
-# Checking the sigmoid(function)
+# Test for Ex. 2: Checking the sigmoid(function)
 import numpy as np 
 import numpy.random as rnd
 
