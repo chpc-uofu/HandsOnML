@@ -1,4 +1,4 @@
-# Logistic Regression class Model2
+# Ex. 1: KerasTorch (Logistic Regression class Model2)
 
 class LogisticRegressionModel2(nn.Module):
 
