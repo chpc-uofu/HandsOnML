@@ -5,7 +5,7 @@ def predict_labels(X: np.ndarray, W: np.ndarray, b: float) -> np.ndarray:
     
     Args:
         X (np.ndarray): The input data (features)  -> shape(m,n) 
-                        where m is #samples & n is #.
+                        where m is #samples & n is #features.
         W (np.ndarray): The weight vector          -> shape(n,1)
         b (float)     : The bias term              -> float
     
