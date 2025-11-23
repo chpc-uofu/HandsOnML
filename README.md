@@ -5,7 +5,7 @@ by Wim R.M. Cardoen (CHPC, University of Utah)<br>
 + Lecture 1: Simple Shallow Neural Net (Logistic Regression)
 + Lecture 2: General Dense Neural Net
 
-# Required python packages
+## Required python packages
 + numpy
 + scipy
 + matplotlib
@@ -17,5 +17,5 @@ by Wim R.M. Cardoen (CHPC, University of Utah)<br>
 + keras
 + tensorboard
 
-# Check installation from CLI
+## Check installation from CLI
 python notebooks/check_install.gpu
