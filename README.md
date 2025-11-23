@@ -1,5 +1,5 @@
-# Hands-On ML
-CHPC Notebooks for Hands-On Machine Learning<br>
+# Hands-On DL
+CHPC Notebooks for Hands-On Deep Learning<br>
 by Wim R.M. Cardoen (CHPC, University of Utah)<br>
 
 + Lecture 1: Simple Shallow Neural Net (Logistic Regression)

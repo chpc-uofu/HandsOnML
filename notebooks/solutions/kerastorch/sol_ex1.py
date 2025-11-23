@@ -1,11 +1,11 @@
-# Ex. 1: KerasTorch (Logistic Regression class Model2)
+# Ex. 1: KerasTorch (Logistic Regression class ModelEx)
 
-class LogisticRegressionModel2(nn.Module):
+class LogisticRegressionModelEx(nn.Module):
 
     def __init__(self, num_inputs):
 
         # The class inherits from the class nn.Module
-        super(LogisticRegressionModel2,self).__init__()
+        super(LogisticRegressionModelEx,self).__init__()
 
         # Define a Single LAYER object which connects
         #     the input with 1 single output
