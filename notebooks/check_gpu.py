@@ -1,4 +1,4 @@
-#
+#!/usr/bin/env python
 import torch
 
 def check_gpu_support():
