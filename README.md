@@ -5,17 +5,20 @@ by Wim R.M. Cardoen (CHPC, University of Utah)<br>
 + Lecture 1: Simple Shallow Neural Net (Logistic Regression)
 + Lecture 2: General Dense Neural Net
 
-## Required python packages
-+ numpy
-+ scipy
-+ matplotlib
-+ pandas
-+ scikit-learn
-+ torch
-+ torchaudio
-+ torchvision
-+ keras
-+ tensorboard
-
+## Installation of the Python packages on a Linux machine
++ Download the miniforge installation script<br>
+  wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
++ Install the miniforge binary in the directory *DIR*<br>
+  bash ./Miniforge3-Linux-x86_64.sh -b -p $DIR
++ Modify the PATH variable<br>
+  - if your SHELL is either sh, bash or zsh:<br>
+    export PATH=$DIR/bin:$PATH<br>
+    echo $(which python3)
+  - if your $SHELL is a (t)csh<br>
+    setenv PATH $DIR/bin:$PATH<br>
+    echo `which python3`
++ Install the required packages (requirements.txt are stored in install)<br>
+  pip install -r install/requirements.txt
+  
 ## Check installation from CLI
-python notebooks/check_install.gpu
+python install/check_install.py

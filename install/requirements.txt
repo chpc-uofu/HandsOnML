@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+torch
+torchaudio
+torchvision
+keras
+tensorboard
+jupyterlab
+notebook
