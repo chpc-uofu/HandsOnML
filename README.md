@@ -1,4 +1,4 @@
-# Hands-On DL
+# Hands-On Deep Learning
 CHPC Notebooks for Hands-On Deep Learning<br>
 by Wim R.M. Cardoen (<a href="https://chpc.utah.edu/">CHPC</a>, University of Utah)<br>
 
