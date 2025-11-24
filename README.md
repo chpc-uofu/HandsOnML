@@ -15,6 +15,8 @@ by Wim R.M. Cardoen (CHPC, University of Utah)<br>
   - echo $(which python3)
 + Install the required packages (requirements.txt are stored in *install/*)<br>
   pip install -r install/requirements.txt
++ A `miniforge` <a href="https://lmod.readthedocs.io/en/latest/">lmod</a> file can be found in *install/lmod/*
+
   
 ## Check installation from CLI
 python install/check_install.py
